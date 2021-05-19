@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RandomIntegers
+comment0.text=\n\ This\ class\ represents\ a\ variety\ of\ methods\ that\ generate\ random\ integer\ values\n\ \n\ @author\ \n\ @version\ \n
+comment1.params=n
+comment1.target=int\ randomInteger(int)
+comment1.text=\ returns\ a\ random\ integer\ from\ 0\ to\ n\ -\ 1\n\ @param\ n\ the\ upper\ limit\ (exclusive)\n\ Precondition\:\ n\ >\ 0\n\ @return\ a\ random\ integer\ from\ 0\ to\ n\ -\ 1\n
+comment2.params=start\ end
+comment2.target=int\ randomInteger(int,\ int)
+comment2.text=\ returns\ a\ random\ integer\ from\ start\ to\ end\ (inclusive)\n\ @param\ start\ the\ lower\ limit\ of\ random\ numbers\ (inclusive)\n\ @param\ end\ the\ upper\ limit\ of\ random\ numbers\ (inclusive)\n\ Precondition\:\ 0\ <\=\ start\ <\=\ end\n\ @return\ a\ random\ integer\ from\ start\ to\ end\ (inclusive)\n
+comment3.params=length\ n
+comment3.target=int[]\ randomIntegerArray(int,\ int)
+comment3.text=\ returns\ an\ array\ with\ a\ capacity\ of\ length\n\ of\ random\ integers\ from\ 0\ to\ n\ -\ 1\n\ @param\ length\ the\ length\ of\ the\ returned\ array\n\ @param\ n\ the\ upper\ limit\ (exclusive)\n\ Precondition\:\ length\ >\ 0,\ n\ >\ 0\n\ @return\ an\ array\ of\ random\ integers\ from\ 0\ to\ n\ -\ 1\n
+numComments=4
